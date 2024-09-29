@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'home-page.dart';
 import 'login/login-page.dart';
 
-void Main() {
+void main() {
   runApp(MyApp());
 }
 

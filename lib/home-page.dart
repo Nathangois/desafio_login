@@ -35,8 +35,8 @@ class HomePage extends StatelessWidget {
 
     final body = Container(
       width: MediaQuery.of(context).size.width,
-      padding: EdgeInsets.all(28.0),
-      decoration: BoxDecoration(
+      padding: const EdgeInsets.all(28.0),
+      decoration: const BoxDecoration(
         gradient: LinearGradient(colors: [
           Colors.blue,
           Colors.lightBlueAccent,
@@ -48,8 +48,8 @@ class HomePage extends StatelessWidget {
     );
 
     return Scaffold(
-      appBar: new AppBar(
-        title: Text('Banco de Dados RE'),
+      appBar: AppBar(
+        title: const Text('Banco de Dados RE'),
       ),
       body: body,
     );
